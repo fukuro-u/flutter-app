@@ -3,7 +3,7 @@ name: Deploy Flutter Web to GitHub Pages
 on:
   push:
     branches:
-      - main  # Hoặc nhánh bạn muốn sử dụng
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,9 +15,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up Flutter
-        uses: subosito/flutter-action
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.10.4'  # Phiên bản Flutter của bạn
+          channel: 'master'
 
       - name: Install dependencies
         run: flutter pub get
