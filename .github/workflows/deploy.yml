@@ -23,7 +23,7 @@ jobs:
         run: flutter pub get
 
       - name: Build the project
-        run: flutter build web
+        run: flutter build web; echo "flutter.keg4re.site" > CNAME;
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
