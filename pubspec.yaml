@@ -89,10 +89,10 @@ flutter:
   #
   fonts:
     - family: Gothic A1
-  fonts:
-    - asset: assets/fonts/GothicA1-Regular.ttf
-    - asset: assets/fonts/GothicA1-Medium.ttf
-    - asset: assets/fonts/GothicA1-Light.ttf
-    - asset: assets/fonts/GothicA1-Bold.ttf
+      fonts:
+        - asset: assets/fonts/GothicA1-Regular.ttf
+        - asset: assets/fonts/GothicA1-Medium.ttf
+        - asset: assets/fonts/GothicA1-Light.ttf
+        - asset: assets/fonts/GothicA1-Bold.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
